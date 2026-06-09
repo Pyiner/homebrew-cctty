@@ -7,17 +7,17 @@ class Cctty < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Pyiner/cctty/releases/download/v0.2.1/cctty-0.2.1-aarch64-apple-darwin.tar.gz"
-      sha256 "871eba89cd0be8d835fe31e1b35c9cd18e74c3582cd222a4c099d32a653f04e2"
+      sha256 "90781f5b0298541960a93fe11d1e3bb9d0ccf2aff56b90b08d288ddefb176c4b"
     else
       url "https://github.com/Pyiner/cctty/releases/download/v0.2.1/cctty-0.2.1-x86_64-apple-darwin.tar.gz"
-      sha256 "f475aa6801886e786aa93d27e8e888f82ca6134c94de7c6aeae4bd614f07af8b"
+      sha256 "c58bf388b606df3f9ac4c343cb9ccdc0d775ffd4e46c228def142d1fa91dcc2e"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/Pyiner/cctty/releases/download/v0.2.1/cctty-0.2.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a29e5e6f0aab09059d3a4afb6bbf7ea703423a356322c6357d48c34d055f37d4"
+      sha256 "c95331402f8408e175b1d8fcb6290ac9415aa0f52f3b1a253d8150f916f20b12"
     end
   end
 
